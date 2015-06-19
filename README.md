@@ -1,6 +1,8 @@
 Yandex Direct API wrapper 1.0.0
 ====================
 
+[![NPM](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://nodei.co/npm/yandex-direct-api/)
+
 Wrapper for Yandex Direct API
 
 [More info en](https://tech.yandex.com/direct/)
