@@ -1,7 +1,7 @@
 Yandex Direct API wrapper
 ====================
 
-[![NPM](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://nodei.co/npm/yandex-direct-api/)
+![NPM](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)
 
 Wrapper for Yandex Direct API
 
@@ -16,7 +16,7 @@ locale: en, // optional; default is 'en'.
 live: false, // optional; default is false.
 sandbox: false, // optional; default is false.
 version: 4 // optional; default is 4.
-url: 'http://url.com' // optional; instead of 'live', 'sandbox', 'version' you can put this. Considering for tests.
+url: 'http://url.com' // optional; instead of 'live', 'sandbox', 'version' you can put this for tests.
 
 ```
 
@@ -29,12 +29,12 @@ var api = YandexDirectApi({
 });
 
 // Request without params.
-api.call('GetVersion', function(err, data){
+api.call('GetVersion', function (err, data) {
     // data do something
 });
 
 // Request with params.
-api.call('GetCampaignParams', {CampaignID: 06892638}, function(err, data){
+api.call('GetCampaignParams', {CampaignID: 06892638}, function (err, data) {
     // data is CampaignInfo
 });
 ```
