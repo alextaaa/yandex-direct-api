@@ -1,6 +1,6 @@
 # Yandex Direct API wrapper
 
-[![yandex-direct-api](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://nodei.co/npm/yandex-direct-api/)
+[![yandex-direct-api](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://money.yandex.ru/to/410011926075651)
 
 [More info en](https://tech.yandex.com/direct/)
 
