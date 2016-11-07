@@ -1,13 +1,13 @@
 {
   "name": "yandex-direct-api",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Wrapper allows an easy interaction with the Yandex Direct API",
   "main": "index.js",
   "dependencies": {
   	"request": "latest"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm i && node ."
   },
   "repository": {
     "type": "git",

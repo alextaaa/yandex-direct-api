@@ -1,40 +1,48 @@
-Yandex Direct API wrapper
-====================
+# Yandex Direct API wrapper
 
-[![NPM](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://nodei.co/npm/yandex-direct-api/)
-
-Wrapper for Yandex Direct API
+[![yandex-direct-api](https://nodei.co/npm/yandex-direct-api.png?stars&downloads)](https://nodei.co/npm/yandex-direct-api/)
 
 [More info en](https://tech.yandex.com/direct/)
 
 [More info ru](https://tech.yandex.ru/direct/)
 
-Use options
+***
+
+[![Donate](https://img.shields.io/badge/Donate-YandexMoney-green.svg)](https://money.yandex.ru/to/410011926075651)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+If you found this package useful, please star it.
+
+Also you may like to Tweet about it or share at Facebook.
+
+#### Usage
+
 ```
 token: '8NsFV5UwJ5tnxA9hLcOYfFNNoFfOSQOl', // required.
-locale: en, // optional; default is 'en'.
+locale: 'en', // optional; default is 'en'.
 live: false, // optional; default is false.
 sandbox: false, // optional; default is false.
-version: 4 // optional; default is 4.
-url: 'http://url.com' // optional; instead of 'live', 'sandbox', 'version' you can put this for tests.
-
+version: 4, // optional; default is 4.
+url: 'https://' optional; your custom url.
 ```
 
-Usage example
-```
-var YandexDirectApi = require('yandex-direct-api');
+ecmascript style
 
-var api = YandexDirectApi({
-    token: '8NsFV5UwJ5tnxA9hLcOYfFNNoFfOSQOl',
+```javascript
+const YandexDirectApi = require('yandex-direct-api');
+
+// API
+let api = YandexDirectApi({
+	token: '8NsFV5UwJ5tnxA9hLcOYfFNNoFfOSQOl'
 });
 
-// Request without params.
-api.call('GetVersion', function (err, data) {
-    // data do something
+// Request without params
+api.call('GetVersion', (err, data) => {
+	console.log(err, data);
 });
 
-// Request with params.
-api.call('GetCampaignParams', {CampaignID: 06892638}, function (err, data) {
-    // data is CampaignInfo
+// Request with params
+api.call('GetCampaignParams', {CampaignID: 06892638}, (err, data) => {
+	console.log(err, data);
 });
 ```
