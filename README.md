@@ -8,7 +8,6 @@
 
 ***
 
-[![Donate](https://img.shields.io/badge/Donate-YandexMoney-green.svg)](https://money.yandex.ru/to/410011926075651)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 If you found this package useful, please star it.
